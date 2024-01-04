@@ -1,0 +1,66 @@
+Xcursor.size: 16
+Xcursor.theme: Bibata-Original-Ice
+
+Xft.autohint: 0
+Xft.lcdfilter: lcdlight
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: unknown
+
+*.font: xft:monospace:size=11
+	
+! special
+*.background:   #191724
+*.foreground:   #e0def4
+*.cursorColor:  #e0def4
+
+! black
+*.color0:       #1f1d2e
+*.color8:       #26233a
+
+! red
+*.color1:       #eb6f92
+*.color9:       #eb6f92
+
+! green
+*.color2:       #f6c177
+*.color10:      #f6c177
+
+! yellow
+*.color3:       #ebbcba
+*.color11:      #ebbcba
+
+! blue
+*.color4:       #31748f
+*.color12:      #31748f
+
+! magenta
+*.color5:       #c4a7e7
+*.color13:      #c4a7e7
+
+! cyan
+*.color6:       #9ccfd8
+*.color14:      #9ccfd8
+
+! white
+*.color7:       #6e6a86
+*.color15:      #908caa
+
+!! URxvt Appearance
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.internalBorder: 0
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+*.translations: #override \
+    Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+
