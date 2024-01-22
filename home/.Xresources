@@ -1,0 +1,51 @@
+Xcursor.size: 16
+Xcursor.theme: Bibata-Original-Ice
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+*.translations: #override \
+	Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+	Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+
+*.font: xft:JetBrains Mono:size=11
+*.background: #191724
+*.foreground: #e0def4
+*.cursorColor: #e0def4
+
+! black
+*.color0: #1f1d2e
+*.color8: #26233a
+
+! red
+*.color1: #eb6f92
+*.color9: #eb6f92
+
+! green
+*.color2: #f6c177
+*.color10: #f6c177
+
+! yellow
+*.color3: #ebbcba
+*.color11: #ebbcba
+
+! blue
+*.color4: #31748f
+*.color12: #31748f
+
+! magenta
+*.color5: #c4a7e7
+*.color13: #c4a7e7
+
+! cyan
+*.color6: #9ccfd8
+*.color14: #9ccfd8
+
+! white
+*.color7: #6e6a86
+*.color15: #908caa
+

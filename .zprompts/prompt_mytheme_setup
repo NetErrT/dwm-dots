@@ -1,3 +1,0 @@
-#!/usr/bin/env zsh
-
-PROMPT="%n:%m %~ \$vcs_info_msg_0_> "

@@ -1,0 +1,22 @@
+[global]
+offset = 0x20
+font = JetBrains Mono 10
+
+[general]
+timeout = 10
+ 
+[urgency_low]
+background = "#170d07"
+foreground = "#dbc1b2"
+frame_color = "#c5c8c6"
+
+[urgency_normal]
+background = "#170d07"
+foreground = "#dbc1b2"
+frame_color = "#81a2be"
+
+[urgency_critical]
+background = "#170d07"
+foreground = "#dbc1b2"
+frame_color = "#cc6666"
+timeout = 0
