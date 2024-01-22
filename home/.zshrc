@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-source "$HOME/.zprofile"
+#source "$HOME/.zprofile"
 
 autoload -Uz compinit promptinit
 
@@ -20,4 +20,8 @@ HISTSIZE=100
 
 # Options
 setopt PROMPT_SUBST
+
+# Aliases
+alias ls='ls --color="auto"'
+alias grep='grep --color="auto"'
 
