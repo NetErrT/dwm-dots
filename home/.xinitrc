@@ -1,8 +1,6 @@
 #!/usr/bin/env sh
 
-[[ -f "$HOME/.Xresources" ]] && xrdb -merge "$HOME/.Xresources"
-
-hsetroot -solid "#080503"
+xrdb -merge "$HOME/.Xresources"
 
 xcompmgr &
 dunst &
@@ -14,7 +12,7 @@ SESSION="dwm"
 
 case "$SESSION" in
 	"dwm")
-		[[ -f "$HOME/.suckless/dwm/status" ]] && "$HOME/.suckless/dwm/status" &
+		"$HOME/.suckless/dwm/status" &
 		exec dwm ;;
 esac
 
